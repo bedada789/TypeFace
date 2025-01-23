@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cell {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.row:hover {
+  background-color: #ddd;
+}
+
+.upload_file{
+  display: 'flex';
+  align-items: center;
+  padding-left:10px;
+}
+
+.headers{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+.text{
+  padding-left:40px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.form_element{
+  padding:10px;
+  font-size: 14px;
+
+}
+.button{
+  font-size: 16px;
+  width: 100px;
+}
