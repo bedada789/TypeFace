@@ -21,3 +21,11 @@ docker run --name my-postgres  -e POSTGRES_DB=typeface -p 5432:5432 -d postgres
 
 
 
+
+##Frontend 
+
+## install dependencies
+npm install
+
+## run server
+npm run dev
